@@ -1,0 +1,62 @@
+2 space line ending?!?!?!
+HAS JOINING PARENTHESIS OR BRACKET!
+(make sure all references filled)
+add second data field to token
+Look at reddit
+
+RECURSION ON SECTIONS!
+---
+
+HEADER, # ## etc, these have link thingies make sure to look further
+
+EMPHASIS, * _
+STRONG, ** __
+STRIKE, ~~
+
+PIPE
+
+CHECKBOX_OPEN, [ ] 
+CHECKBOX_CLOSED, [x] 
+
+AT LEAST THREE DASHES FOR THESE!
+TABLE_HEADER_L, ---- :----
+TABLE_HEADER_C, :----:
+TABLE_HEADER_R, -----:
+
+SPACES
+REDDIT_NEWLINE, data for how many spaces
+NEWLINE
+
+LIST, * - +
+ORDEREDLIST, 1.
+
+LINK_TT, [SENTENCE]
+IMG_TT, ![SENTENCE]
+URL, (httas/dfa/sd)
+RELATIVE_URL,
+LINK_REF, [SENTENCE] after LINK_TT or with no following ref
+IMAGE_REF: [SENTENCE] after IMG_TT or with no following ref
+REFERENCE: LINK_REF : URL, IMAGE_REF : URL
+
+INLINE_CODE, data will be the code part. BE SURE TO HIGHLIGHT
+CODE_HIGHLIGHT, data will be the language
+
+HORIZONTAL_RULE, --- *** ___
+
+ESCAPES, \* \_ \# 
+
+EMOJI
+
+BLOCKQUOTE, remember to recurse markdown in the data
+
+WORD IS THE LEFTOVER PART! until whitespace
+
+
+
+
+
+
+
+
+
+SENTENCE: (WORD*SPACES*)* or URL... WORK ON THIS

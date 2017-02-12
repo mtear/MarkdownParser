@@ -21,7 +21,7 @@ public class MarkdownLexerToken extends LexerToken{
 	 * 
 	 * @param type The type of this token
 	 */
-	public MarkdownLexerToken(MarkdownLexerTokenType type){
+	public MarkdownLexerToken(byte type){
 		super(type);
 	}
 	
@@ -31,7 +31,7 @@ public class MarkdownLexerToken extends LexerToken{
 	 * @param type The type of this token
 	 * @param data Additional data for this token
 	 */
-	public MarkdownLexerToken(MarkdownLexerTokenType type, String data){
+	public MarkdownLexerToken(byte type, String data){
 		super(type, data);
 	}
 	

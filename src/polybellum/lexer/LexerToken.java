@@ -17,8 +17,8 @@ public abstract class LexerToken {
 	/**
 	 * The type of Token this object is
 	 */
-	@SuppressWarnings({ "unused", "rawtypes" })
-	private LexerTokenType _type;
+	@SuppressWarnings({ "unused" })
+	private byte _type;
 	
 	/**
 	 * Any additional data field this Token has
@@ -35,7 +35,7 @@ public abstract class LexerToken {
 	 * 
 	 * @param type The type of this token
 	 */
-	public LexerToken(@SuppressWarnings("rawtypes") LexerTokenType type){
+	public LexerToken(byte type){
 		_type = type;
 	}
 	
@@ -45,7 +45,7 @@ public abstract class LexerToken {
 	 * @param type The type of this token
 	 * @param data Additional data for this token
 	 */
-	public LexerToken(@SuppressWarnings("rawtypes") LexerTokenType type,
+	public LexerToken(byte type,
 			String data){
 		_type = type;
 		_data = data;
